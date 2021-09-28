@@ -79,8 +79,8 @@ class Locations {
 }
 
 Future<Locations> getGoogleOffices() async {
-  const googleLocationsURL = 'https://about.google/static/data/locations.json';
-  // const googleLocationsURL = 'https://gis2diskarpwk.github.io/assets/locations.json';
+  // const googleLocationsURL = 'https://about.google/static/data/locations.json';
+  const googleLocationsURL = 'https://gis2diskarpwk.github.io/assets/locations.json';
   // https://gis2diskarpwk.github.io/assets/locations.json
   // Retrieve the locations of Google offices
   try {
